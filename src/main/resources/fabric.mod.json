@@ -10,6 +10,12 @@
   "entrypoints": {
     "client": ["com.corectdelay.CorectDelayClient"]
   },
+  "mixins": [
+    {
+      "config": "corectdelay.client.mixins.json",
+      "environment": "client"
+    }
+  ],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.1",
