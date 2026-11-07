@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "corectdelay",
+  "version": "${version}",
+  "name": "CorectDelay",
+  "description": "Inventory management tweaks for mouse buttons.",
+  "authors": ["adamskrabulski90-byte"],
+  "license": "BSD-3-Clause",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.corectdelay.CorectDelayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
